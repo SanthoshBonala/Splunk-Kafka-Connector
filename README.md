@@ -68,6 +68,30 @@ Start a console consumer to read from the kafka topic we created earlier using t
 
 ### 9. Create OAuth Token for HEC(HTTP Event Collector)
 
+1. On the Search and reporting Page, Click on Settings.
+
+2. In the Settings, click on Data Inputs.
+
+![datainputs](/images/datainputs.png)
+3. On the Data Inputs page, click on the HTTP Event Collector option.
+![HEC](/images/HEC.png)
+4. On the HTTP Event Collector Page click on Global Settings.
+![globalsettings](/images/globalsettings.png)
+5. In the Edit Global Settings modal, make sure all the details are similar to the image shown below.
+![globalsettingsconfig](/images/globalsettingsconfig.png)
+6. Then Click on Save.
+7. Then, click on New Token and make sure all of the details as per the following screenshots.
+
+![generatetoken-1](/images/generatetoken-1.png)
+
+![generatetoken-2](/images/generatetoken-2.png)
+
+![generatetoken-3](/images/generatetoken-3.png)
+
+8. After creating a new token, remember to make a note of it.
+
+
+
 ### 10. create Connector Tasks
 - `POST` the following data to splunk HEC using the following URI and payload
 > URI: http://localhost:8083/connectors  
@@ -79,7 +103,7 @@ Start a console consumer to read from the kafka topic we created earlier using t
      "tasks.max": "2",
      "topics": "bearcat_messages",
      "splunk.hec.uri":"http://localhost:8088",
-     "splunk.hec.token": "4cb5e285-1105-4647-9efe-95090b360b74",
+     "splunk.hec.token": "<use the token generated in previous step>",
      "splunk.hec.ack.enabled" : "false",
      "splunk.hec.raw" : "false",
      "splunk.hec.json.event.enrichment" : "org=fin,bu=south-east-us",
@@ -88,7 +112,7 @@ Start a console consumer to read from the kafka topic we created earlier using t
 }
 ```
 - Refer to the following screenshot for more details.
-![createconnectortask](/images/createconnectortask.png)
+![POSTconfig](/images/POSTconfig.png)
 
 ## References
 * https://github.com/splunk/kafka-connect-splunk/
