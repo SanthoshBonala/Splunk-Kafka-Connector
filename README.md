@@ -47,16 +47,16 @@ Start a console consumer to read from the kafka topic we created earlier using t
 Start a console consumer to read from the kafka topic we created earlier using the following command `kafka_2.11-2.0.0\bin\windows\connect-distributed.bat kafka_2.11-2.0.0\config\connect-distributed.properties`
 > You can also double click on the `connect-distributed.bat` file
 ### 8. verifying Sink Connector
-## 1. Postman
+#### 1. Postman
 * Make a `GET` Request to the Kafka Connector API Service and verify that you have started in step 7 using the URI `http://localhost:8083/connector-plugins/` and verify that you must have an entry for `com.splunk.kafka.connect.SplunkSinkConnector`
 * You can refer to the below screenshot for more details.
 ![verifySink](/images/verifySink.png)
 
-## 2. CURL
+#### 2. CURL
 * Use the following command to make a `GET` request using CURL 
 > curl http://localhost:8083/connector-plugins/ and verify that you must have an entry for `com.splunk.kafka.connect.SplunkSinkConnector`
 * You can refer to the below screenshot for more details.
-![verifySink](/images.curlverifySink.png)
+![verifySink](/images/curlverifySink.png)
 
 ## References
 * https://github.com/splunk/kafka-connect-splunk/
