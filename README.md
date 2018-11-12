@@ -13,7 +13,7 @@
 > Clone this repo before you start working!!
 ### 1. Download Splunk Connector for kafka
 By Following the link below download the executable jar file [Download](https://github.com/splunk/kafka-connect-splunk/releases)
-![Download](/images/kafka-connect-splunk)
+![Download](/images/kafka-connect-splunk.PNG)
 > Make sure that you place the jar file in `Splunk-Kafka-Connector/kafka_2.11-2.0.0/bin/windows/`
 > we will use this path later to start our kafka connector
 ### 2. Start Zoopkeeper
