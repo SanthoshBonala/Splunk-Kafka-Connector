@@ -71,22 +71,29 @@ Start a console consumer to read from the kafka topic we created earlier using t
 1. On the Search and reporting Page, Click on Settings.
 
 2. In the Settings, click on Data Inputs.
-
 ![datainputs](/images/datainputs.png)
+
 3. On the Data Inputs page, click on the HTTP Event Collector option.
 ![HEC](/images/HEC.png)
+
+
 4. On the HTTP Event Collector Page click on Global Settings.
 ![globalsettings](/images/globalsettings.png)
+
 5. In the Edit Global Settings modal, make sure all the details are similar to the image shown below.
 ![globalsettingsconfig](/images/globalsettingsconfig.png)
+
 6. Then Click on Save.
 7. Then, click on New Token and make sure all of the details as per the following screenshots.
 
 ![generatetoken-1](/images/generatetoken-1.png)
 
-![generatetoken-2](/images/generatetoken-2.png)
+
+![generatetoken-2](/images/generatetoken-2.PNG)
+
 
 ![generatetoken-3](/images/generatetoken-3.png)
+
 
 8. After creating a new token, remember to make a note of it.
 
