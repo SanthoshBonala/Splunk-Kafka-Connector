@@ -1,5 +1,6 @@
 # Splunk Workshop
-## Introduction -- vipul
+## Introduction 
+Splunk is the software for searching, monitoring, analyzing the big data though web interface. Splunk can capture live data and it can genarate graphs, reports, alerts, dashboards and visualizations.  
 
 ## Why Splunk? -- Saivarun 
 
