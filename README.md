@@ -144,5 +144,6 @@ Start a console consumer to read from the kafka topic we created earlier using t
 - Krishnaveni Karri (s530471@nwmissouri.edu)
 - Santhosh Bonala (s530859@nwmissouri.edu)
 
-## Published Page: https://santhoshbonala.github.io/Splunk-Kafka-Connector/ 
-## View Source: https://github.com/SanthoshBonala/Splunk-Kafka-Connector
+## 
+- [Published Page](https://santhoshbonala.github.io/Splunk-Kafka-Connector/) 
+- [View Source](https://github.com/SanthoshBonala/Splunk-Kafka-Connector) 
