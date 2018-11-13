@@ -1,11 +1,11 @@
 # Splunk Workshop
 ## Content to be covered
-* What is splunk
-* Why use splunk
-* Using splunk Interface
-  * How to use search in splunk
-  * How to import data static files into splunk
-  * how to visualize data and create dashboards
+* What is Splunk
+* Why use Splunk
+* Using Splunk Interface
+  * How to use search
+  * How to import data static files
+  * How to visualize data and create dashboards
 * Splunk Connect for Kafka – Connecting Apache Kafka with Splunk
 
 ## What is splunk 
