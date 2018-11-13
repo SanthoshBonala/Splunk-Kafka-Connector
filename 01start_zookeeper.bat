@@ -1,1 +1,1 @@
-kafka_2.11-2.0.0\bin\windows\zookeeper-server-start.bat zookeeper.properties
+kafka\bin\windows\zookeeper-server-start.bat zookeeper.properties
