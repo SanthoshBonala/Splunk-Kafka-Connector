@@ -1,15 +1,23 @@
 # Splunk Workshop
 ## Content to be covered
-* What is Splunk
-* Why use Splunk
-* Using Splunk Interface
-  * How to use search
-  * How to import data static files
-  * How to visualize data and create dashboards
+* What is splunk
+* Why use splunk
+* Using splunk Interface
+  * How to use search in splunk
+  * How to import data static files into splunk
+  * how to visualize data and create dashboards
 * Splunk Connect for Kafka – Connecting Apache Kafka with Splunk
 
 ## What is splunk 
 Splunk is the software for searching, monitoring, analyzing the big data though web interface. Splunk can capture live data and it can genarate graphs, reports, alerts, dashboards and visualizations.  
+
+## Why use Splunk? 
+- We can Analyze system performance  
+- Troubleshoot any failure condition
+- Monitor business metrics  
+- Search & Investigate a particlar outcome  
+- Create dahboards to visualize & analyze results
+- Store and retrive data for later use
 
 ## Splunk-Kafka-Connector
 > Clone this repo before you start working!!
