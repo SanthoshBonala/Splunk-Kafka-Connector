@@ -16,43 +16,43 @@ Splunk is the software for searching, monitoring, analyzing the big data though 
 ### 1. Download Splunk Connector for kafka
 By Following the link below download the executable jar file [Download](https://github.com/splunk/kafka-connect-splunk/releases)
 ![Download](/images/kafka-connect-splunk.PNG)
-> Make sure that you place the jar file in `Splunk-Kafka-Connector/kafka_2.11-2.0.0/bin/windows/`
+> Make sure that you place the jar file in `Splunk-Kafka-Connector/kafka/bin/windows/`
 > we will use this path later to start our kafka connector
 
 ### 2. Start Zoopkeeper
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Start the Zoopkeeper using the following command `kafka_2.11-2.0.0/bin/windows/zookeeper-server-start.bat zookeeper.properties`
+Start the Zoopkeeper using the following command `kafka/bin/windows/zookeeper-server-start.bat zookeeper.properties`
 > You can also double click on the `zookeeper-server-start.bat` file
 
 ### 3. Start Kafka Server
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Start the kafka server using the following command `kafka_2.11-2.0.0/bin/windows/kafka-server-start.bat server.properties`
+Start the kafka server using the following command `kafka/bin/windows/kafka-server-start.bat server.properties`
 > You can also double click on the `kafka-server-start.bat` file
 
 ### 4. Create a topic in kafka
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Create a topic on the previous server using the following command `kafka_2.11-2.0.0/bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bearcat_messages`
+Create a topic on the previous server using the following command `kafka/bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bearcat_messages`
 > You can also double click on the `kafka-topics.bat` file
 
 ### 5. Start a console Producer
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Start a console producer to write to the kafka topic we created earlier using the following command `kafka_2.11-2.0.0/bin/windows/kafka-console-producer.bat --broker-list localhost:9092 --topic bearcat_messages`
+Start a console producer to write to the kafka topic we created earlier using the following command `kafka/bin/windows/kafka-console-producer.bat --broker-list localhost:9092 --topic bearcat_messages`
 > You can also double click on the `kafka-console-producer.bat` file
 
 ### 6. Start a console Customer
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Start a console consumer to read from the kafka topic we created earlier using the following command `kafka_2.11-2.0.0/bin/windows/kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat_messages --from-beginning`
+Start a console consumer to read from the kafka topic we created earlier using the following command `kafka/bin/windows/kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat_messages --from-beginning`
 > You can also double click on the `kafka-console-consumer.bat` file
 
 ### 7. Create Connection Splunk-Kafka
 > Please make sure that your current working directory is Splunk-Kafka-Connector
 
-Start a console consumer to read from the kafka topic we created earlier using the following command `kafka_2.11-2.0.0\bin\windows\connect-distributed.bat kafka_2.11-2.0.0\config\connect-distributed.properties`
+Start a console consumer to read from the kafka topic we created earlier using the following command `kafka\bin\windows\connect-distributed.bat kafka\config\connect-distributed.properties`
 > You can also double click on the `connect-distributed.bat` file
 
 ### 8. verifying Sink Connector
@@ -130,7 +130,7 @@ Start a console consumer to read from the kafka topic we created earlier using t
 
 
 ## Contact
-- Vipul chandoor
-- Saivarun Illendula
-- Krishnaveni Karri
-- Santhosh Bonala
+- Vipul chandoor (s530459@nwmissouri.edu)
+- Saivarun Illendula (s530464@nwmissouri.edu)
+- Krishnaveni Karri (s530471@nwmissouri.edu)
+- Santhosh Bonala (s530859@nwmissouri.edu)
