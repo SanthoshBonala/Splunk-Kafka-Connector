@@ -11,8 +11,6 @@
 ## What is splunk 
 Splunk is the software for searching, monitoring, analyzing the big data though web interface. Splunk can capture live data and it can genarate graphs, reports, alerts, dashboards and visualizations.  
 
-## Why use Splunk? -- Saivarun 
-
 ## Splunk-Kafka-Connector
 > Clone this repo before you start working!!
 
